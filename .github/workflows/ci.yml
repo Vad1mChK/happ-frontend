@@ -16,7 +16,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
-          java-version: '17' # Update to your JDK version
+          java-version: '21' # Update to your JDK version
           distribution: 'temurin'
 
       - name: Setup Android SDK
