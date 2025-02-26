@@ -20,7 +20,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Setup Android SDK
-        uses: android-actions/setup-android-sdk@v2
+        uses: android-actions/setup-android@v3
         with: # Update below versions to: platforms;android-${compileSdkVersion} and build-tools;${buildToolsVersion} respectively
           packages: |
             platforms;android-34
